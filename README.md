@@ -1,5 +1,4 @@
 # Sobre
 
-Repositório oficial do código utilizado no livro Construindo APIs testáveis com Node.js
+Projeto base usando node com mysql (sequelize) e docker 
 
-Link do livro: https://github.com/waldemarnt/building-testable-apis-with-nodejs
