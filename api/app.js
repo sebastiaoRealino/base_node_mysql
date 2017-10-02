@@ -13,4 +13,6 @@ app.set('port', 3000);
 
 routes(app)
 
-export default app;
+app.listen(app.get('port'), () => {
+  console.log(`app runninag on ${app.get('port')}`);
+});

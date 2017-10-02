@@ -7,5 +7,7 @@ import productsRoute from './products';
 // router.use('/products', productsRoute);
 
 export default (app)=>{
+		
     productsRoute(app);
+	
 };

@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'start-debug' ]
+2 info using npm@3.8.6
+3 info using node@v5.11.0
+4 verbose run-script [ 'prestart-debug', 'start-debug', 'poststart-debug' ]
+5 info lifecycle nodebook@0.0.1~prestart-debug: nodebook@0.0.1
+6 silly lifecycle nodebook@0.0.1~prestart-debug: no script for prestart-debug, continuing
+7 info lifecycle nodebook@0.0.1~start-debug: nodebook@0.0.1
+8 verbose lifecycle nodebook@0.0.1~start-debug: unsafe-perm in lifecycle true
+9 verbose lifecycle nodebook@0.0.1~start-debug: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/api/node_modules/.bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+10 verbose lifecycle nodebook@0.0.1~start-debug: CWD: /api
+11 silly lifecycle nodebook@0.0.1~start-debug: Args: [ '-c',
+11 silly lifecycle   'nodemon -L --debug=5858 --exec babel-node --presets es2015 app.js --debug=5858' ]
+12 silly lifecycle nodebook@0.0.1~start-debug: Returned: code: 1  signal: null
+13 info lifecycle nodebook@0.0.1~start-debug: Failed to exec start-debug script
+14 verbose stack Error: nodebook@0.0.1 start-debug: `nodemon -L --debug=5858 --exec babel-node --presets es2015 app.js --debug=5858`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:239:16)
+14 verbose stack     at emitTwo (events.js:100:13)
+14 verbose stack     at EventEmitter.emit (events.js:185:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:100:13)
+14 verbose stack     at ChildProcess.emit (events.js:185:7)
+14 verbose stack     at maybeClose (internal/child_process.js:850:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+15 verbose pkgid nodebook@0.0.1
+16 verbose cwd /api
+17 error Linux 4.9.41-moby
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "start-debug"
+19 error node v5.11.0
+20 error npm  v3.8.6
+21 error code ELIFECYCLE
+22 error nodebook@0.0.1 start-debug: `nodemon -L --debug=5858 --exec babel-node --presets es2015 app.js --debug=5858`
+22 error Exit status 1
+23 error Failed at the nodebook@0.0.1 start-debug script 'nodemon -L --debug=5858 --exec babel-node --presets es2015 app.js --debug=5858'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the nodebook package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     nodemon -L --debug=5858 --exec babel-node --presets es2015 app.js --debug=5858
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs nodebook
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls nodebook
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

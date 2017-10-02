@@ -9,7 +9,7 @@ import Product from '../models/product';
 export default (app)=>{ 
     app.route('/products')
     .get((req,res) =>{
-        res.json('lista de produtos') 
+        res.json('lista de produtos')
     }); 
 
     app.route('/product')
